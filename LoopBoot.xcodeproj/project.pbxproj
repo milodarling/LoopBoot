@@ -18,6 +18,7 @@
 		5F7CAC1D1817375B00DCD0A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7CABFC1817375A00DCD0A6 /* Cocoa.framework */; };
 		5F7CAC251817375B00DCD0A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F7CAC231817375B00DCD0A6 /* InfoPlist.strings */; };
 		5F7CAC271817375B00DCD0A6 /* BootLoopFixerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CAC261817375B00DCD0A6 /* BootLoopFixerTests.m */; };
+		5F7CAC391817449C00DCD0A6 /* MobileDevice in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7CAC381817449C00DCD0A6 /* MobileDevice */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +32,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F7CABF91817375A00DCD0A6 /* BootLoopFixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootLoopFixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7CABF91817375A00DCD0A6 /* LoopBoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopBoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F7CABFC1817375A00DCD0A6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5F7CABFF1817375A00DCD0A6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5F7CAC001817375A00DCD0A6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5F7CAC011817375A00DCD0A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5F7CAC041817375A00DCD0A6 /* BootLoopFixer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BootLoopFixer-Info.plist"; sourceTree = "<group>"; };
+		5F7CAC041817375A00DCD0A6 /* LoopBoot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoopBoot-Info.plist"; sourceTree = "<group>"; };
 		5F7CAC061817375A00DCD0A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F7CAC081817375A00DCD0A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F7CAC0A1817375A00DCD0A6 /* BootLoopFixer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BootLoopFixer-Prefix.pch"; sourceTree = "<group>"; };
+		5F7CAC0A1817375A00DCD0A6 /* LoopBoot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoopBoot-Prefix.pch"; sourceTree = "<group>"; };
 		5F7CAC0C1817375A00DCD0A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5F7CAC0E1817375A00DCD0A6 /* EAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAAppDelegate.h; sourceTree = "<group>"; };
 		5F7CAC0F1817375A00DCD0A6 /* EAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAAppDelegate.m; sourceTree = "<group>"; };
 		5F7CAC121817375B00DCD0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5F7CAC141817375B00DCD0A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5F7CAC1A1817375B00DCD0A6 /* BootLoopFixerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootLoopFixerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7CAC1A1817375B00DCD0A6 /* LoopBootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopBootTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F7CAC1B1817375B00DCD0A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5F7CAC221817375B00DCD0A6 /* BootLoopFixerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BootLoopFixerTests-Info.plist"; sourceTree = "<group>"; };
+		5F7CAC221817375B00DCD0A6 /* LoopBootTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoopBootTests-Info.plist"; sourceTree = "<group>"; };
 		5F7CAC241817375B00DCD0A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F7CAC261817375B00DCD0A6 /* BootLoopFixerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootLoopFixerTests.m; sourceTree = "<group>"; };
+		5F7CAC3018173B3500DCD0A6 /* MobileDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
+		5F7CAC381817449C00DCD0A6 /* MobileDevice */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = MobileDevice; path = ../../../../System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7CAC391817449C00DCD0A6 /* MobileDevice in Frameworks */,
 				5F7CABFD1817375A00DCD0A6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,8 +90,8 @@
 		5F7CABFA1817375A00DCD0A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F7CABF91817375A00DCD0A6 /* BootLoopFixer.app */,
-				5F7CAC1A1817375B00DCD0A6 /* BootLoopFixerTests.xctest */,
+				5F7CABF91817375A00DCD0A6 /* LoopBoot.app */,
+				5F7CAC1A1817375B00DCD0A6 /* LoopBootTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +99,7 @@
 		5F7CABFB1817375A00DCD0A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F7CAC381817449C00DCD0A6 /* MobileDevice */,
 				5F7CABFC1817375A00DCD0A6 /* Cocoa.framework */,
 				5F7CAC1B1817375B00DCD0A6 /* XCTest.framework */,
 				5F7CABFE1817375A00DCD0A6 /* Other Frameworks */,
@@ -118,6 +123,7 @@
 				5F7CAC0E1817375A00DCD0A6 /* EAAppDelegate.h */,
 				5F7CAC0F1817375A00DCD0A6 /* EAAppDelegate.m */,
 				5F7CAC111817375B00DCD0A6 /* MainMenu.xib */,
+				5F7CAC3018173B3500DCD0A6 /* MobileDevice.h */,
 				5F7CAC141817375B00DCD0A6 /* Images.xcassets */,
 				5F7CAC031817375A00DCD0A6 /* Supporting Files */,
 			);
@@ -127,10 +133,10 @@
 		5F7CAC031817375A00DCD0A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F7CAC041817375A00DCD0A6 /* BootLoopFixer-Info.plist */,
+				5F7CAC041817375A00DCD0A6 /* LoopBoot-Info.plist */,
 				5F7CAC051817375A00DCD0A6 /* InfoPlist.strings */,
 				5F7CAC081817375A00DCD0A6 /* main.m */,
-				5F7CAC0A1817375A00DCD0A6 /* BootLoopFixer-Prefix.pch */,
+				5F7CAC0A1817375A00DCD0A6 /* LoopBoot-Prefix.pch */,
 				5F7CAC0B1817375A00DCD0A6 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -148,7 +154,7 @@
 		5F7CAC211817375B00DCD0A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F7CAC221817375B00DCD0A6 /* BootLoopFixerTests-Info.plist */,
+				5F7CAC221817375B00DCD0A6 /* LoopBootTests-Info.plist */,
 				5F7CAC231817375B00DCD0A6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F7CABF81817375A00DCD0A6 /* BootLoopFixer */ = {
+		5F7CABF81817375A00DCD0A6 /* LoopBoot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F7CAC2A1817375B00DCD0A6 /* Build configuration list for PBXNativeTarget "BootLoopFixer" */;
+			buildConfigurationList = 5F7CAC2A1817375B00DCD0A6 /* Build configuration list for PBXNativeTarget "LoopBoot" */;
 			buildPhases = (
 				5F7CABF51817375A00DCD0A6 /* Sources */,
 				5F7CABF61817375A00DCD0A6 /* Frameworks */,
@@ -169,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = BootLoopFixer;
+			name = LoopBoot;
 			productName = BootLoopFixer;
-			productReference = 5F7CABF91817375A00DCD0A6 /* BootLoopFixer.app */;
+			productReference = 5F7CABF91817375A00DCD0A6 /* LoopBoot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F7CAC191817375B00DCD0A6 /* BootLoopFixerTests */ = {
+		5F7CAC191817375B00DCD0A6 /* LoopBootTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F7CAC2D1817375B00DCD0A6 /* Build configuration list for PBXNativeTarget "BootLoopFixerTests" */;
+			buildConfigurationList = 5F7CAC2D1817375B00DCD0A6 /* Build configuration list for PBXNativeTarget "LoopBootTests" */;
 			buildPhases = (
 				5F7CAC161817375B00DCD0A6 /* Sources */,
 				5F7CAC171817375B00DCD0A6 /* Frameworks */,
@@ -187,9 +193,9 @@
 			dependencies = (
 				5F7CAC1F1817375B00DCD0A6 /* PBXTargetDependency */,
 			);
-			name = BootLoopFixerTests;
+			name = LoopBootTests;
 			productName = BootLoopFixerTests;
-			productReference = 5F7CAC1A1817375B00DCD0A6 /* BootLoopFixerTests.xctest */;
+			productReference = 5F7CAC1A1817375B00DCD0A6 /* LoopBootTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F7CABF41817375A00DCD0A6 /* Build configuration list for PBXProject "BootLoopFixer" */;
+			buildConfigurationList = 5F7CABF41817375A00DCD0A6 /* Build configuration list for PBXProject "LoopBoot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F7CABF81817375A00DCD0A6 /* BootLoopFixer */,
-				5F7CAC191817375B00DCD0A6 /* BootLoopFixerTests */,
+				5F7CABF81817375A00DCD0A6 /* LoopBoot */,
+				5F7CAC191817375B00DCD0A6 /* LoopBootTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +276,7 @@
 /* Begin PBXTargetDependency section */
 		5F7CAC1F1817375B00DCD0A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F7CABF81817375A00DCD0A6 /* BootLoopFixer */;
+			target = 5F7CABF81817375A00DCD0A6 /* LoopBoot */;
 			targetProxy = 5F7CAC1E1817375B00DCD0A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -385,9 +391,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BootLoopFixer/BootLoopFixer-Prefix.pch";
-				INFOPLIST_FILE = "BootLoopFixer/BootLoopFixer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BootLoopFixer/LoopBoot-Prefix.pch";
+				INFOPLIST_FILE = "BootLoopFixer/LoopBoot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MobileDevice.framework/Versions/A",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = LoopBoot;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,9 +409,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BootLoopFixer/BootLoopFixer-Prefix.pch";
-				INFOPLIST_FILE = "BootLoopFixer/BootLoopFixer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BootLoopFixer/LoopBoot-Prefix.pch";
+				INFOPLIST_FILE = "BootLoopFixer/LoopBoot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MobileDevice.framework/Versions/A",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = LoopBoot;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -420,8 +436,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BootLoopFixerTests/BootLoopFixerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BootLoopFixerTests/LoopBootTests-Info.plist";
+				PRODUCT_NAME = LoopBootTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -438,8 +454,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BootLoopFixer/BootLoopFixer-Prefix.pch";
-				INFOPLIST_FILE = "BootLoopFixerTests/BootLoopFixerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BootLoopFixerTests/LoopBootTests-Info.plist";
+				PRODUCT_NAME = LoopBootTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -448,7 +464,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F7CABF41817375A00DCD0A6 /* Build configuration list for PBXProject "BootLoopFixer" */ = {
+		5F7CABF41817375A00DCD0A6 /* Build configuration list for PBXProject "LoopBoot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F7CAC281817375B00DCD0A6 /* Debug */,
@@ -457,21 +473,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F7CAC2A1817375B00DCD0A6 /* Build configuration list for PBXNativeTarget "BootLoopFixer" */ = {
+		5F7CAC2A1817375B00DCD0A6 /* Build configuration list for PBXNativeTarget "LoopBoot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F7CAC2B1817375B00DCD0A6 /* Debug */,
 				5F7CAC2C1817375B00DCD0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5F7CAC2D1817375B00DCD0A6 /* Build configuration list for PBXNativeTarget "BootLoopFixerTests" */ = {
+		5F7CAC2D1817375B00DCD0A6 /* Build configuration list for PBXNativeTarget "LoopBootTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F7CAC2E1817375B00DCD0A6 /* Debug */,
 				5F7CAC2F1817375B00DCD0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
